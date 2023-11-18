@@ -31,6 +31,7 @@ dependencies:
   date_format: ^2.0.7
   intl: ^0.18.1
   flutter_slidable: ^3.0.1
+  search_page: ^2.3.0
 
 dev_dependencies:
   flutter_test:

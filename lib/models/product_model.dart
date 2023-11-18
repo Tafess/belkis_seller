@@ -26,7 +26,8 @@ class ProductModel {
       this.otherDetails,
       this.unit,
       this.imageUrls,
-      this.seller});
+      this.seller,
+      this.productId});
 
   ProductModel.fromJson(Map<String, Object?> json)
       : this(
@@ -102,6 +103,7 @@ class ProductModel {
   final String? unit;
   final List? imageUrls;
   final Map? seller;
+  final String? productId;
 
   Map<String, Object?> toJson() {
     return {

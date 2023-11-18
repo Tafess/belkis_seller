@@ -58,7 +58,9 @@ class PublishedProduct extends StatelessWidget {
                               children: [
                                 SlidableAction(
                                   flex: 1,
-                                  onPressed: (context) {},
+                                  onPressed: (context) {
+                                    _services.products.doc(id).delete();
+                                  },
                                   backgroundColor: Color(0xFFFE4A49),
                                   foregroundColor: Colors.white,
                                   icon: Icons.delete,
@@ -67,9 +69,9 @@ class PublishedProduct extends StatelessWidget {
                                 SlidableAction(
                                   flex: 1,
                                   onPressed: (context) {
-                                    _services.products.doc(id).update({
-                                      'approved': product.approved == false
-                                    });
+                                    _services.products
+                                        .doc(id)
+                                        .update({'approved': false});
                                   },
                                   backgroundColor: Colors.green,
                                   foregroundColor: Colors.white,
