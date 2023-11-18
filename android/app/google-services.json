@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "359678373942",
+    "firebase_url": "https://belkis-marketplace-default-rtdb.firebaseio.com",
+    "project_id": "belkis-marketplace",
+    "storage_bucket": "belkis-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359678373942:android:30ef639879adee694a6897",
+        "android_client_info": {
+          "package_name": "com.belkis.belkis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359678373942-m86pj1n47foa9onidd54c8en8jelkhho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNe29nuXAiR0Q9H6rnOm3y2DsEDaqHmgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359678373942-m86pj1n47foa9onidd54c8en8jelkhho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359678373942:android:f38b48fbbd188cc44a6897",
+        "android_client_info": {
+          "package_name": "com.example.belkis_seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359678373942-m86pj1n47foa9onidd54c8en8jelkhho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNe29nuXAiR0Q9H6rnOm3y2DsEDaqHmgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359678373942-m86pj1n47foa9onidd54c8en8jelkhho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
