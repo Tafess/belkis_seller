@@ -32,7 +32,6 @@ class ProductProvider with ChangeNotifier {
     String? unit,
     List? imageUrls,
     Map? seller,
-    
   }) {
     if (seller != null) {
       productData!['seller'] = seller;
@@ -77,7 +76,7 @@ class ProductProvider with ChangeNotifier {
     }
 
     if (sku != null) {
-      productData!['SKU'] = sku;
+      productData!['sku'] = sku;
     }
 
     if (manageInventory != null) {
